@@ -1,14 +1,3 @@
-terraform { 
-  cloud { 
-    
-    organization = "strampovtest" 
-
-    workspaces { 
-      name = "lambda" 
-    } 
-  } 
-}
-
 provider "aws" {
   region = "us-east-1"
 }
